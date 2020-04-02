@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    tools:context=".Wardrobe">
+
+    <ImageButton
+        android:id="@+id/shelf1"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:src="@drawable/shelf4"
+        android:background="#282828"
+        />
+
+    <ImageButton
+        android:id="@+id/shelf2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_below="@+id/shelf1"
+        android:src="@drawable/shelf4"
+        android:background="#282828"
+        />
+
+    <ImageButton
+        android:id="@+id/shelf3"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_below="@+id/shelf2"
+        android:src="@drawable/shelf4"
+        android:background="#282828"
+        />
+
+    <ImageButton
+        android:id="@+id/shelf4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/shelf3"
+        android:src="@drawable/shelf4"
+        android:background="#282828"
+        />
+
+</RelativeLayout>

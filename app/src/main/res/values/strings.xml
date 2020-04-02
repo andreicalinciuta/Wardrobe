@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wardrobe</string>
+    <string name="wardrobe">Wardrobe</string>
+    <string name="credits">Credits</string>
+    <string name="Shelf1">_____</string>
+    <string name="Shelf2">_____</string>
+    <string name="Shelf3">_____</string>
+    <string name="Shelf4">_____</string>
+    <string name="test">TODO</string>
+    <string name="test2">TODO</string>
+    <string name="testt">TODO</string>
+    <string name="testttt">TODO</string>
+    <string name="testa">TODO</string>
+    <string name="alttest">TODO</string>
+    <string name="altttest">TODO</string>
+    <string name="alttttest">TODO</string>
+    <string name="pushme">PushMe</string>
+    <string name="action_info">action_info</string>
+</resources>

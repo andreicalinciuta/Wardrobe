@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schelet3"
+    tools:context=".Shelf4">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutGol"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/hoodieLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layoutGol"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <ImageView
+            android:id="@+id/ImgH"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_action_hanger"
+            android:onClick="preloadImagefromGalleryH"/>
+
+        <ImageView
+            android:id="@+id/ImgA"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/ic_action_hanger"
+            android:onClick="preloadImagefromGalleryA"/>
+
+        <ImageView
+            android:id="@+id/ImgS"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/ic_action_hanger"
+            android:onClick="preloadImagefromGalleryS"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/jeansLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adidasLayout"
+        android:layout_below="@+id/hoodieLayout"
+        >
+
+        <ImageView
+            android:id="@+id/ImgJ"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_action_hanger"
+            android:onClick="preloadImagefromGalleryJ"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/adidasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_vertical"
+
+        android:minHeight="120dp"
+        android:textStyle="bold">
+
+        <ImageView
+            android:id="@+id/ImgT"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/ic_action_hanger"
+            android:onClick="preloadImagefromGalleryT"/>
+
+        <ImageButton
+            android:id="@+id/btnShow"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/circle_button"
+            android:onClick="ShowMe"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:src="@drawable/ic_action_closedeye"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
